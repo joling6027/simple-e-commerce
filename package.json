@@ -21,6 +21,7 @@
     "use-local-storage-state": "^18.3.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.1.0",
     "eslint-config-next": "^13.4.1"
   }
 }
