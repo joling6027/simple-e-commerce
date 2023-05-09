@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# BestChoice E-Commerce Website
 
-## Getting Started
+BestChoice is an e-commerce web application, where you can easily browse, select, and purchase a wide range of consumer electronics such as laptops, earphones, and mobile phones from the comfort of your own home.
 
-First, run the development server:
+Our web application is designed with a user-friendly interface to provide you with a seamless shopping experience. You can browse our collection by category, search for specific products using keywords, and save your favorite products by clicking on the heart icon.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Once you've found the product you want to purchase, simply add it to your cart and proceed to the checkout page. Our checkout process is quick and easy, with options to select your preferred payment method, including Stripe for secure and hassle-free transactions.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Demo: [BestChoice](https://best-choice-sable.vercel.app/)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Table of Contents
+- [Installation](#installation)
+- [Examples](#examples)
+- [Contributing](#contributing)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+To install and run BestChoice web application locally, follow these steps:
+1. Make sure you have Node and npm installed
+2. Clone the repository to your local folder.
+3. In your preferred IDE, open terminal and run `npm run dev`
+4. Open any browser and navigate to localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Examples
 
-## Learn More
+1. Choose the product you want to purchase by click on the cart icon near the product.
+<img src="https://github.com/joling6027/simple-e-commerce/tree/main/public/demo/homepage.JPG" alt="enter new job application" style="height: 300px; width:550px;"/>
+2. Click on the heart can add it into the favourite page.
+<img src="https://github.com/joling6027/simple-e-commerce/tree/main/public/demo/favouritepage.JPG" alt="enter new job application" style="height: 300px; width:550px;"/>
 
-To learn more about Next.js, take a look at the following resources:
+3. In cart page, you can increase/ decrease the product amount you want to buy. Fill in the delivery information and nevigate to payment page.
+<img src="https://github.com/joling6027/simple-e-commerce/tree/main/public/demo/shoppingcart.JPG" alt="enter new job application" style="height: 300px; width:550px;"/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. You can test the payment using the fake card number: `4242 4242 4242 4242` with the zip code `92010` (United States).
+<img src="https://github.com/joling6027/simple-e-commerce/tree/main/public/demo/paymentpage.JPG" alt="enter new job application" style="height: 300px; width:550px;"/>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Fork the repository.
+- Make your changes in a new branch.
+- Submit a pull request.
