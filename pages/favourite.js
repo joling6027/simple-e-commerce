@@ -65,7 +65,7 @@ const favouritePage = () => {
         if (amount === 0) return;
         return (
           <div className="flex mb-5" key={product._id}>
-            <div className="bg-gray-100 p-3 rounded-xl shrink-0" style={{ boxShadow: 'inset 1px 0px 10px 10px rgba(0,0,0,0.1)' }}>
+            <div className="bg-gray-100 p-3 rounded-xl shrink-0 self-center" style={{ boxShadow: 'inset 1px 0px 10px 10px rgba(0,0,0,0.1)' }}>
               <img className='w-24' src={product.picture} alt={product.name} />
             </div>
             <div className='pl-4 items-center w-full'>
